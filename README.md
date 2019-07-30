@@ -5,19 +5,19 @@ A schedule creator used to create timetables for a summer camp. Created using py
 To run the program simply execute the script *ui.py*.
 
 # Program Information
-**Purpose** 
+**Purpose:** 
 This scheduling software was used by the office
 staff at one of my previous jobs, a summer camp. It was
 used to generate a set of group schedules for campers based
 on a variety of constraints given to me.
  
-**Schedule Layout**
+**Schedule Layout:**
 The schedule for each group has 6 periods.
 2 in the morning and 4 in the afternoon. The morning contains 2 sports.
 While the afternoon consists of a lunch, a swim and 2 sports. Lunch and swim
 will always happen the same period each day.
 
-**Schedule Rules**
+**Schedule Rules:**
 Each schedule has a set of rules that must be followed if possible.
 - No group may have the same activity more than 3 times a week (2 if possible)
 - No group may have the same activity on the same day
@@ -29,7 +29,7 @@ Each schedule has a set of rules that must be followed if possible.
     again it will be in the afternoon
 - Group 2 will never place tennis
 
-**Details**
+**Details:**
 Each week the office staff manually create a schedule 
 for each group of campers expected in the following week. The goal
 when creating this schedule is to keep each one as diverse as possible.
@@ -39,7 +39,7 @@ doing this effectively becomes very diffuclt due to the mathematical complexity
 of balancing activities between the groups and within the individual schedules.
 I compare it to solving a more advanced version of sudoku.
 
-**Limitations** 
+**Limitations:** 
 Sometimes the constraints selected in the program
 interface are impossible to generate a schedule for. Take for example
 the case in which you have 10 groups and only 8 activities available in
